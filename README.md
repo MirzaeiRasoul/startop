@@ -42,6 +42,7 @@ Problem is render Profile page twice (one after login, one after refresh). Both 
 
 
 <br/>
+
 ## Optimization and Improvements
 #### 1. Check to decrease number of refresh reqs (refresh just on need auth page?) (It's Correct?)
 
