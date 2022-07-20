@@ -41,6 +41,7 @@ Problem is render Profile page twice (one after login, one after refresh). Both 
 #### 10. Study React reportWebVitals Package.
 
 
+<br/>
 ## Optimization and Improvements
 #### 1. Check to decrease number of refresh reqs (refresh just on need auth page?) (It's Correct?)
 
@@ -51,5 +52,6 @@ Problem is render Profile page twice (one after login, one after refresh). Both 
 * Source: https://supertokens.com/blog/revoking-access-with-a-jwt-blacklist
 
 <br/>
-React from Scratch\
+React from Scratch
+<br/>
 React Global State with Context
