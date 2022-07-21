@@ -8,9 +8,9 @@ const authRouter = require('./routes/auth.routes');
 const searchRouter = require('./routes/search.routes');
 
 const app = express();
-const port = 3001;
+const port = 5000;
 
-app.use(express.static(path.join(__dirname, '../client/build')));
+app.use(express.static(path.join(__dirname, '/client/build')));
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -29,7 +29,7 @@ app.use('/api/auth', authRouter);
 app.use('/api/search', searchRouter);
 
 app.get('/*', (req, res) => {
-    res.sendFile(path.join(__dirname, '../client/build', 'index.html'));
+    res.sendFile(path.join(__dirname, '/client/build', 'index.html'));
 });
 
 app.listen(port, () => {

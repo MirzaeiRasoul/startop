@@ -32,6 +32,9 @@ Problem is render Profile page twice (one after login, one after refresh). Both 
 #### Prevent Default Browser Console Error Logs. [:heavy_check_mark:]
 * Use from custom axios and clear console is catch blocks.
 
+#### Optimize and Convert Images to Webp Format.
+* Source: https://www.google.com/search?q=best+package+for+convert+image+to+webp+nodejs+express&sxsrf=ALiCzsbkziWl-zDxR3Y1-PurTQ5oXr9PKg%3A1658346291486&ei=M1vYYvKWHY2Axc8PooGIwAw&oq=best+package+for+convert+image+to+webp+node&gs_lcp=Cgdnd3Mtd2l6EAMYADIFCCEQoAEyBQghEKABMgUIIRCgAToHCAAQRxCwAzoKCAAQ5AIQsAMYAToICCEQHhAWEB06BAgjECdKBAhBGABKBAhGGAFQkQlYwxtg-ihoA3ABeAGAAecBiAHsDZIBBTAuNC41mAEAoAEByAENwAEB2gEGCAEQARgJ&sclient=gws-wiz
+
 #### Select Best Database (Mongo).
 
 #### Check and Verify User Exist in Database.
@@ -39,6 +42,8 @@ Problem is render Profile page twice (one after login, one after refresh). Both 
 #### Study and Develop PWA Version
 
 #### Study React reportWebVitals Package.
+
+#### Develop and Use ML Algorithm.
 <br/>
 
 ## Optimization and Improvements

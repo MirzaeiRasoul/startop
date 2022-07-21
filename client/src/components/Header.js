@@ -3,7 +3,6 @@ import { NavLink, Link, useHistory, useLocation } from 'react-router-dom';
 import { SearchInput } from '../components';
 import useAuth from '../hooks/useAuth';
 import useLogout from '../hooks/useLogout';
-import logo from '../img/logo.png';
 
 const Header = () => {
   const history = useHistory();
@@ -48,9 +47,7 @@ const Header = () => {
             :
             <button className='login-btn m-l-20' onClick={() => history.push('/login')}>ورود</button>
         }
-        <Link to={'/'}><img className='logo' src={logo} alt='logo' /></Link>
-        {/* Below code is not good and loading is slow ... */}
-        {/* <Link to={'/'}><img className='logo' src='./images/logo.png' alt='logo' /></Link> */}
+        <Link to={'/'}><img className='logo' width='102' height='60' src={require(`../assets/images/logo.webp`)} alt='logo' /></Link>
       </div>
     </header>
   );

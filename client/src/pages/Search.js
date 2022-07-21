@@ -35,7 +35,7 @@ const Search = () => {
               {datas.length ? (datas.map((startup, index) => (
                 <div className='result-item' key={startup.id}>
                   <div className='result-image'>
-                    <img src={`../images/startups/logo${startup.id}.png`} alt={`logo${startup.id}`} />
+                    <img src={require(`../assets/images/startups/logo${startup.id}.webp`)} alt={`logo${startup.id}`} />
                   </div>
                   <div className='result-content'>
                     <div className='result-title'>{startup.title}</div>
