@@ -8,7 +8,7 @@ const authRouter = require('./routes/auth.routes');
 const searchRouter = require('./routes/search.routes');
 
 const app = express();
-const port = 5000;
+const port = 80;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
